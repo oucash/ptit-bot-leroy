@@ -5,11 +5,11 @@ from urllib import request
 from urllib.error import HTTPError
 
 
-WEBHOOK_URL = 'https://discordapp.com/api/webhooks/xxx/yyy'
+WEBHOOK_URL = 'https://discordapp.com/api/webhooks/659347269568430091/rBdfYn2GOC8LNaC93sS6s-8h5KgulPhadXzEHH8rxtsW2KhDzDYAE7W0NPFvFB9zaBrc/github'
 
 # La payload
 payload = {
-    'content': "Salut les z'agrumes ! Ça zeste ?"
+    'content': "Salut ! ça va ?"
 }
 
 # Les paramètres d'en-tête de la requête
