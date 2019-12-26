@@ -22,7 +22,7 @@ headers = {
 req = request.Request(url=WEBHOOK_URL,
                       data=json.dumps(payload).encode('utf-8'),
                       headers=headers,
-                      method='Salut ca va ?')
+                      method='POST')
 
 # Puis on l'émet !
 try:
